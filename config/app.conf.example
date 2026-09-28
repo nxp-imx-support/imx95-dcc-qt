@@ -1,0 +1,22 @@
+# Copyright 2024,2026 NXP
+# SPDX-License-Identifier: BSD-3-Clause
+# /etc/dcc/app.conf
+# Config file for DCC Linux Qt
+
+[FindMy]
+enabled=@FINDMY_ENABLE@
+gpioChip=@FINDMY_GPIO_CHIP@
+gpioPin=@FINDMY_GPIO_PIN@
+
+[Key]
+enabled=@KEY_ENABLE@
+
+[LLM]
+enabled=@LLM_ENABLE@
+
+[AAP]
+enabled=@AAP_ENABLE@
+
+[IMU]
+enabled=@IMU_ENABLE@
+chaseView=@IMU_CHASEVIEW@

@@ -1,0 +1,6 @@
+[submodule "src/ukf.git"]
+	path = src/ukf
+	url = https://github.com/sfwa/ukf.git
+[submodule "src/egf-api"]
+	path = src/egf-api
+	url = https://github.com/nxp-imx-support/lib-egf-api.git
